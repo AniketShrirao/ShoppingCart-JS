@@ -126,35 +126,97 @@ header .wrapper {
   main styling starts here
 =================================*/
 
+form {
+  width: 55%;
+  margin: 40px auto;
+}
+form > ul:first-child,
+#list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
+form > ul:first-child li {
+  width: 50%;
+  padding: 10px;
+}
 
+form > ul label {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: burlywood;
+}
+.Item,
+.Quantity {
+  padding: 5px;
+  margin: 0 1%;
+}
 
+form > ul:last-of-type {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 
+form > ul:last-of-type li  {
+  margin: 10px;
+}
 
+.Save,
+.Update,
+.Delete,
+#shoppinglist input[type="button"] {
+  padding: 10px 20px;
+  font-weight: 700;
+  color:#fff;
+  background: burlywood;
+  border: none;
+  transition: all 0.3s ease;
+}
 
+.Save:hover { background: aqua; }
+.Delete:hover { background: red; }
+.Update:hover { background: lightgreen; }
+#shoppinglist { text-align : center; }
+#shoppinglist input[type="button"]:hover { background: red } 
+
+#shoppinglist h2 {
+  font-size: 24px;
+  color: blueviolet;
+  width: 25%;
+  margin: 0 auto;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid;
+  margin: 20px;
+}
+
+.items,
+.values {
+  width: 50%;
+  border: 1px solid;
+}
+
+.items ul,
+.values ul {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid;
+}
+
+.items h3,
+.values h3 { font-size: 22px; }
+.items ul li,
+.values ul li { padding: 10px; }
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
