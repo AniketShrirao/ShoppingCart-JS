@@ -24,21 +24,42 @@
   <div class="container">
     <!--header section start-->
     <header>
-      
+      <div class="wrapper">
+        <h1>Shopping cart</h1>
+      </div>
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
-
+      <div class="wrapper">
+        <form name="shoppinglist">
+          <ul>
+            <li class="form-group">
+              <label>Item: <input type="text" class="Item" name="name"></label>
+            </li>
+            <li class="form-group">
+              <label>Quantity: <input type="text" class="Quantity" name="data"></label>
+            </li>
+          </ul>
+          <ul>
+            <li class="form-control">
+              <input type="button" class="Save" value="Save">
+            </li>
+            <li class="form-control">
+              <input type="button" class="Update" value="Update">
+            </li>
+            <li class="form-control">
+              <input type="button" class="Delete" value="Delete">
+            </li>
+          </ul>
+        <div id="shoppinglist">
+          <h2>Shopping List</h2>
+          <input type="button" value="ClearAll">
+        </div>
+      </form>
+      </div>
     </main>
     <!--main section end-->
-
-    <!--footer section start-->
-    <footer>      
-
-    </footer>
-    <!--footer section end-->
-
   </div>
   <!--container end-->
   <script src="assets/js/script.js"></script>
